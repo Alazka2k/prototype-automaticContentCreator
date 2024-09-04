@@ -1,0 +1,30 @@
+{
+    "1001": {
+        "code": "FILE_NOT_FOUND",
+        "message": "File not found"
+    },
+    "1002": {
+        "code": "PERMISSION_DENIED",
+        "message": "Permission denied"
+    },
+    "1003": {
+        "code": "INVALID_JSON",
+        "message": "Invalid JSON in configuration file"
+    },
+    "1004": {
+        "code": "FILE_OPERATION_ERROR",
+        "message": "File operation error"
+    },
+    "1005": {
+        "code": "CONFIGURATION_ERROR",
+        "message": "Configuration error"
+    },
+    "9999": {
+        "code": "UNEXPECTED_ERROR",
+        "message": "An unexpected error occurred"
+    },
+    "1006": {
+        "code": "PERMISSION_ERROR",
+        "message": "Permission denied: The file is being used by another process"
+    }
+}

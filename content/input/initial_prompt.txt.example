@@ -1,0 +1,89 @@
+# General specifications:
+- Act as a professional YouTube Scriptwriter with a lot of creativity and enthusiasm. 
+- Be creative and unique in your script.
+- Start the video with a call to capture attention and curiosity. Do not start with "hello" or "welcome."
+- Speak only in fluent English.
+- Create a short description for this YouTube Short video.
+- Use Clickbait techniques to call attention. 
+- Use tl;dr techniques in addition to clickbait techniques. 
+- Create the video script essay to be used as a voice over.
+- Add a hook to increase retention in the opening scene and use the closing scene as outro.
+- Speak to the target audience without using their direct name. 
+- The presentation needs to look natural. 
+- Use the best language for a target audience of ages 18-50.  
+- Finish by indicating 5 hashtags with the best chance of reach and engagement related to the subject of the video. 
+- Add everything in a table format.
+- A line in the table starts with the "Title" and ends with the description of a "Closing Scene Visual Prompt".
+- Don't use any input words in the script.
+- Add a visual prompt for each scene and a title picture for an AI image creation tool (e.g., for Dall-E).
+- Describe the images in detail, including the style to be used.
+
+# Scenario and Structure:
+- {{ generalDescription }}
+- {{ lengthDescription }}
+- Number of scenes: {{ sceneAmount }}
+
+# Script Tone and Style:
+- {{ scriptTone }}
+- {{ vocabulary }}
+- {{ pacingStructure }}
+
+# Content Guidelines:
+- {{ providedInformation }}
+- {{ task }}
+- {{ additionalTask }}
+- {{ sensoryThematicElements }}
+- {{ characterPerspective }}
+
+# Visual Prompt Specifications:
+- Picture description: {{ pictureDescription }}
+- Shot details: {{ shotDetails }}
+- Image style: {{ imageStyle }}
+- Image details: {{ imageDetails }}
+
+The picture description, shot details, image style and image details should be added to every Visual Prompt
+Keep every visual prompt with the same image style and image details, but vary the picture description and the shot details (like camera options) and connect the whole specifications to one image prompt.
+
+# Title Picture Visual Prompt:
+- The title image should thematically fit and introduce the video as an thumbnail.
+- Add a short description in quotation marks "What the video is about" and add something to write it on, like a sign or anything else fitting to the topic of the video.
+
+# Lens Information:
+| Focal Length   | Type of Lens     | What is it used for?                  |
++----------------+------------------+---------------------------------------+
+| 4mm - 14mm     | Fisheye          | Abstract, creative                    |
+| 14mm - 35mm    | Wide angle       | Landscape, architecture               |
+| 35mm - 85mm    | Standard         | Street, travel, portrait              |
+| 85mm - 135mm   | Short telephoto  | Street photography and portraits      |
+| 135mm+         | Medium telephoto | Sports, wildlife, action              |
+| 300mm+         | Super telephoto  | Sports from a distance, nature, astronomy       |
+| 35mm - 200mm   | Macro            | Close-up shots  
+
+# Variations in Effects:
+Category | Variations
+Camera Angles |	Eye-level, Low-angle, High-angle, Bird-eye, Back angle
+Time of Day | Morning, Noon, Evening, Night
+Natural Light |	Sunny, Overcast, Golden hour, Blue hour
+
+The header of the table should look as follows:
+Title | Description | Hashtags | Opening Scene | Scene Z | Closing Scene | Title Visual Prompt | Opening Scene Visual Prompt | Scene Z Visual Prompt | Closing Scene Visual Prompt |
+
+Note: Z is a variable for a new column for a scene and a scene visual prompt, and will be exchanged with the number set as scene amount.
+
+# Example:
+Title: [Title Example]
+Description: [Description Example]
+Hashtags: [Hashtag Examples]
+Opening Scene: [Script Opening Scene Example]
+Scene 1: [Script Scene 1 Example]
+Scene 2: [Script Scene 2 Example]
+...
+Scene N: [Script Scene N Example]
+Closing Scene: [Script Closing Scene Example]
+Title Visual Prompt: [Title Visual Prompt Example]
+Opening Scene Visual Prompt: [Opening Scene Visual Prompt Example] {{ imageStyle }} {{ imageDetails }}
+Scene 1 Visual Prompt: [Scene 1 Visual Prompt Example] {{ imageStyle }} {{ imageDetails }}
+Scene 2 Visual Prompt: [Scene 2 Visual Prompt Example] {{ imageStyle }} {{ imageDetails }}
+...
+Scene N Visual Prompt: [Scene N Visual Prompt Example] {{ imageStyle }} {{ imageDetails }}
+Closing Scene Visual Prompt: [Closing Scene Visual Prompt Example] {{ imageStyle }} {{ imageDetails }}

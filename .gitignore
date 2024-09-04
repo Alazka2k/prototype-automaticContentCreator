@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Output files
+content/output/
+content/output/old_output/
+
+# Input and configuration files
+content/input/parameters.json
+content/input/input.csv
+content/input/test.csv
+content/input/initial_prompt.txt

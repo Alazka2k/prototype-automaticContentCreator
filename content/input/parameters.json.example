@@ -1,0 +1,21 @@
+{
+  "inputFile": "input_test.csv",
+  "promptFile": "initial_prompt.txt",
+  "parameters": {
+    "sceneAmount": "5",
+    "pictureDescription": "A detailed description of the scene's visual elements.",
+    "shotDetails": "Include lighting effects, time of day, and camera angles.",
+    "imageStyle": "Photorealistic, cinematic",
+    "imageDetails": "--ar 16:9 --style raw --s 500 --v 6",
+    "lengthDescription": "Create a concise video script suitable for a 60-second clip.",
+    "generalDescription": "Explore engaging scenarios with compelling storytelling.",
+    "scriptTone": "Balanced between informative and entertaining, with a touch of humor.",
+    "vocabulary": "Simple and accessible, with occasional technical terms explained clearly.",
+    "providedInformation": "You will be given a topic, and your task is to craft a narrative around it.",
+    "task": "Focus on logical progression and cause-effect relationships within the story.",
+    "additionalTask": "Incorporate vivid descriptions and sensory details to enhance immersion.",
+    "pacingStructure": "Maintain dynamic pacing, with varied sentence lengths to match scene intensity.",
+    "sensoryThematicElements": "Utilize sensory details to create an immersive experience.",
+    "characterPerspective": "Include a relatable character to guide the audience through the narrative."
+  }
+}
