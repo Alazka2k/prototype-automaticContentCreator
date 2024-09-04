@@ -1,6 +1,6 @@
-# Automatic Content Creator for Apocalypse Chronicles
+# Prototype of Automatic Content Creator
 
-This project is an Automatic Content Creator designed to generate video scripts and visual prompts for YouTube content, specifically focused on apocalyptic scenarios. It utilizes OpenAI's GPT model to create engaging and creative scripts based on user inputs and predefined parameters.
+This project is an Prototype of Automatic Content Creator designed to generate video scripts and visual prompts for short video content. It utilizes OpenAI's GPT model to create engaging and creative scripts based on defined inputs and predefined parameters, which are changeable depending on the use case.
 
 ## Current Status
 
